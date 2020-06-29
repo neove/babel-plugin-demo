@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neove/babel-plugin-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neove/babel-plugin-demo/issues"
+  },
+  "homepage": "https://github.com/neove/babel-plugin-demo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-generator": "^6.26.1",
+    "babel-template": "^6.26.0"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0"
+  }
+}
